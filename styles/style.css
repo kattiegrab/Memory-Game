@@ -1,0 +1,30 @@
+body {
+	background-color: #6A9E98;
+	padding: 10px;
+}
+
+.gameBoard {
+	margin: 30px auto;
+	position: relative;
+	background: #6A9E98;
+	overflow: hidden;
+	width: 550px;
+	height: 444px;
+	border: 2px solid #236A62;
+	border-radius: 5px;
+}
+
+.tile {
+	position: absolute;
+	cursor: pointer;
+	float: left;
+	width: 100px;
+	height: 100px;
+	background: url("../jpeg/title.png") center center no-repeat;
+	margin: 10px;
+	background-size: cover;
+}
+
+.tile:hover {
+	background-color: #236A62;
+}
